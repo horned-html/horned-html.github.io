@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pronoun Tester App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Pronoun Testing Application!</h1>
+    <div class="main">
+        <div class="topbuttons">
+            <select id="dropdown">
+            </select>
+            <button id="select" onclick="selectSet(dropdown.value)">Use this set!</button>
+            <button id="random" onclick="randomSet()">Use random set!</button>
+        </div>
+        <p id="set">pronouns...</p>
+        <p id="example">example sentence...</p>
+        <button onclick="randomSentence()">New sentence</button>
+        <input type="text" id="input" onkeypress="possiblySubmit(event)">
+        <button id="submit" onclick="checkAnswer()">Submit!</button>
+        <p id="evaluation">...</p>
+    </div>
+</body>
+</html>
