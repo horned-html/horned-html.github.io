@@ -12,8 +12,12 @@ let prns = [
     ['they', 'them', 'their', 'theirs', 'themself'],
     ['it', 'it', 'its', 'its', 'itself'],
     ['ae', 'aer', 'aer', 'aers', 'aerself'],
-    ['ve', 'ver', 'vis', 'vis', 'vimself'],
+    ['ey', 'em', 'eir', 'eirs', 'emself'],
+    ['ne', 'nem', 'nir', 'nirs', 'nemself'],
+    ['ve', 'ver', 'vis', 'vis', 'verself'],
     ['xe', 'xem', 'xyr', 'xyrs', 'xemself'],
+    ['ze', 'zir', 'zir', 'zirs', 'zirself'],
+    ['ze', 'hir', 'hir', 'hirs', 'hirself'],
 ];
 
 let sentences = [
